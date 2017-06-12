@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MyConnectionString-Web.config Connection String" description="MyConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=app.fit.ba;Initial Catalog=eSneakers;User Id=Elmar;Password=pF0wa4!4;Integrated Security=false;MultipleActiveResultSets=true" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="H:\\Android\\SeminarskiRadovi\\eSneakers\\eSneakers\.MVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

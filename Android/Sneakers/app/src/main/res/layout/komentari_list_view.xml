@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativLayoutComments">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Komentar"
+            android:id="@+id/tvKomentar"
+
+            android:singleLine="false"
+
+            android:layout_alignParentTop="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="by:"
+            android:id="@+id/byUsername"
+            android:layout_below="@+id/tvKomentar"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUsernameKomentara"
+            android:layout_below="@id/tvKomentar"
+
+            android:text="username"
+            android:layout_toRightOf="@id/byUsername"
+            android:clickable="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDatumKreiranjaKomentara"
+            android:text="datum"
+            android:layout_below="@id/tvKomentar"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

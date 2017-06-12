@@ -1,0 +1,5 @@
+H:\Android\SeminarskiRadovi\eSneakers\eSneakers.DATA\bin\Debug\eSneakers.DATA.dll
+H:\Android\SeminarskiRadovi\eSneakers\eSneakers.DATA\bin\Debug\eSneakers.DATA.pdb
+H:\Android\SeminarskiRadovi\eSneakers\eSneakers.DATA\obj\Debug\eSneakers.DATA.dll
+H:\Android\SeminarskiRadovi\eSneakers\eSneakers.DATA\obj\Debug\eSneakers.DATA.pdb
+H:\Android\SeminarskiRadovi\eSneakers\eSneakers.DATA\obj\Debug\eSneakers.DATA.csprojResolveAssemblyReference.cache
